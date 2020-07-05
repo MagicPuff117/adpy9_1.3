@@ -12,6 +12,6 @@ if __name__ == '__main__':
 
     contacts.view()
     contacts.search_favourite()
-    contacts.main_search("Thomas", "Anderson")
+    contacts.main_search('Thomas', 'Anderson')
     contacts.delete_contact("+71234567809")
     contacts.view()

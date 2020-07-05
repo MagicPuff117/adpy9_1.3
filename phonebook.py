@@ -25,7 +25,7 @@ class Phonebook:
             if contact.favourite_contact:
                 print(f'{contact.main_info}')
 
-    def main_search(self,name,surname):
+    def main_search(self, name, surname):
         for contact in self.contacts:
             if contact.name == name and contact.surname == surname:
                 print(contact)
